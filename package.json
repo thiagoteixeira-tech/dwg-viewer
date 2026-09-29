@@ -1,0 +1,13 @@
+{
+  "name": "dwg-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visualizador web de arquivos DWG (AutoCAD) com zoom e tabela de dimensões dos objetos.",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve -l 8000 .",
+    "dev": "npx --yes serve -l 8000 .",
+    "deploy": "npx --yes vercel --prod"
+  },
+  "license": "GPL-3.0"
+}
